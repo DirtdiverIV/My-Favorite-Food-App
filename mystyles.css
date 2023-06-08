@@ -1,0 +1,103 @@
+* {
+    border: 2px solid red;
+}
+
+div .flexb {
+    display: flexbox;
+    flex: 1;
+    width: 600px;
+    margin: 0 auto;
+    
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.blocktwo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    background-color: #2f1d58;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: row;
+    padding-top: 40px;
+    
+}
+
+.ingredients {
+    background-color: aqua;
+    
+}
+
+.blocktwo .time {
+    width: 20%;
+    height: 40%;
+    margin: 5px;
+    background-color: lightblue;
+    
+}
+
+
+
+.blocktwo .ingredients {
+    width: 60%;
+    height: 80%;
+    margin: 5px;
+    background-color: lightblue;
+    
+}
+
+.steps {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: #2f1d58;
+    height: 80vh;
+    overflow: auto;
+    flex-direction: column;
+
+}
+
+.stepone {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 90%;
+    background-color: #2f1d58;
+    height: 33%;
+    overflow: auto;
+    flex-direction: row;
+    
+    
+}
+
+.steponetext {
+    width: 60%;
+    height: 80%;
+    margin: 5px;
+    background-color: lightblue;
+    
+    
+}
+
+.steponeimg {
+    width: 30%;
+    height: 50%;
+    margin: 5px;
+    
+}
+
+.credits {
+    text-align: center;
+}
