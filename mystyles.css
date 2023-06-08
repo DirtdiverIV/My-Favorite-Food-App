@@ -10,6 +10,7 @@ body {
 div .flexb {
     display: flexbox;
     flex: 1;
+    background-color: rgb(241, 178, 199);
     
 }
 
@@ -17,6 +18,7 @@ div .flexb {
     width: 100%;
     height: 20em;
     border-radius: 20px;
+    border: 4px solid white;
 }
 
 .blocktwo {
@@ -31,20 +33,22 @@ div .flexb {
     flex-direction: row;
     padding-top: 40px;
     
+    
 }
 
 .ingredients {
-    background-color: aqua;
+    background-color: rgb(241, 178, 199);
     
 }
 
 .blocktwo .time {
     width: 30%;
-    height: 40%;
+    height: 50%;
     margin: 5px;
-    background-color: lightblue;
+    background-color: rgb(241, 178, 199);
     border-radius: 20px;
     padding-bottom: 20px;
+    border: 4px solid white;
     
     
 }
@@ -55,8 +59,9 @@ div .flexb {
     width: 60%;
     height: 80%;
     margin: 5px;
-    background-color: lightblue;
+    background-color: rgb(241, 178, 199);
     padding: 20px;
+    border: 4px solid white;
     
 }
 
@@ -91,7 +96,7 @@ div .flexb {
     width: 80%;
     height: 80%;
     margin: 5px;
-    background-color: lightblue;
+    background-color: rgb(241, 178, 199);
     
     
 }
@@ -100,6 +105,7 @@ div .flexb {
     width: 30%;
     height: 50%;
     margin: 5px;
+    
     
 }
 
@@ -110,21 +116,24 @@ div .flexb {
 body {
     margin-left: 5em;
     margin-right: 5em;
+    background-image: url("img/bg.jpg");
 }
 
 .preparation {
-    text-align: center;
+    
+    background-color: rgb(241, 178, 199);
     font-size: 32px;
-    border: 2px solid black;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 0px;
+    border: 4px solid white;
+
 }
 
 .cooktime {
     text-align: center;
     font-size: 32px;
-    border: 2px solid black;
+    border: 4px solid white;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
@@ -142,4 +151,27 @@ label{
 
 input{
     padding: 20px;
+}
+
+h1 {
+    background-color: rgb(241, 178, 199);
+}
+
+.prep {
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.maintittle {
+    border: 4px solid white;
+    padding-left: 20px;
+}
+
+.numimg {
+    border: 4px solid white;
+}
+
+.credits {
+    color: white;
+    
 }
